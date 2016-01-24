@@ -14,14 +14,9 @@ body {
 
 /* Custom page header */
 .header {
+  padding-top: 10px;
   padding-bottom: 30px;
   border-bottom: 1px solid #e5e5e5;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
 }
 
 /* Custom page footer */
@@ -76,4 +71,9 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+/*Sizing the logo*/
+.logo {
+	height: 50px;
 }
