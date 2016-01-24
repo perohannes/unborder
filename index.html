@@ -1,1 +1,103 @@
-Hello World
+<!-- unborder v3, a signup form where you can describe what you want in the to-do list -->
+<!--  should also have a sample; enter e-mail to receive the sample-->
+<!--  information about pricing-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Unborder</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="unborder.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">How does it work?</a></li>
+            <li role="presentation"><a href="#">Samples</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Unborder</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Going abroad?</h1>
+        <p class="lead">Get a personalised to do list for your next move or trip!</p>
+		<form action="//formspree.io/woutervanderkolk@gmail.com"
+				method="POST">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto">
+  </div>
+    <div class="form-group">
+    <label for="nationality">Nationality</label>
+    <input type="text" class="form-control" id="nationality" placeholder="Nationality">
+  </div>
+      <div class="form-group">
+    <label for="situation">Describe your situation</label>
+    <textarea class="form-control" rows="3" id="situation" placeholder="Situation"></textarea>
+  </div>
+  <button type="submit" class="btn btn-lg btn-success" value="Send">Submit</button>
+</form>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-4">
+          <h4>Moving</h4>
+          <p>Get you registrations right in your new home.</p>
+        </div>
+
+        <div class="col-lg-4">
+          <h4>Travel</h4>
+          <p>Make sure you have your visa and vaccinations covered.</p>
+        </div>
+		
+		<div class="col-lg-4">
+          <h4>Students</h4>
+          <p>New country, new school, new responsiblities.</p>
+        </div>
+      </div>
+		
+      <footer class="footer">
+        <p class="pull-left">&copy; 2016 Unborder</p>
+		<p class="pull-right">By: Perohannes</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="ie10-viewport-bug-workaround.js"></script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>
